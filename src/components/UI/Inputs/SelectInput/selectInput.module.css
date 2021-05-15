@@ -1,0 +1,26 @@
+.SelectInput select {
+  width: 60%;
+  font-size: 25px;
+  text-align-last: center;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  font-size: 23px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.SelectInput p {
+  margin: 10px;
+  font-size: 23px;
+}
+.SelectInput select option {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .SelectInput p {
+    margin: 10px;
+    font-size: 19px;
+  }
+}

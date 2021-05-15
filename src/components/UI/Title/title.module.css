@@ -1,0 +1,13 @@
+.TitleDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  h2{
+    font-size:23px;
+  }
+}

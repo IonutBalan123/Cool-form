@@ -1,0 +1,31 @@
+.AgeInput {
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.AgeInput label {
+  font-size: 25px;
+}
+
+.AgeInput input {
+  width: 35%;
+  border: none;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  font-size: 23px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .AgeInput {
+    width: 45%;
+  }
+  .AgeInput input {
+    width: 30%;
+  }
+}

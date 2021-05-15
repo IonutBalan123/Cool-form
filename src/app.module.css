@@ -1,0 +1,27 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: #1d97e9;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 10% 90%;
+}
+.FormContainer {
+  margin-top: -100px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.SignUp {
+  color: #45ffb2dc;
+  font-size: 40px;
+  margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .FormContainer {
+    width: 100%;
+  }
+}
